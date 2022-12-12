@@ -1,0 +1,42 @@
+H2{
+    margin-top: 30PX;
+}
+form{
+    color: black;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(25, 140, 217);
+}
+footer{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/fond-footer.svg);
+    background-size: cover;
+    padding-bottom: 47px;
+
+}
+input{
+    border: 3px solid rgb(25, 140, 217);
+    border-radius: 20px;
+    padding: 5px;
+    transition: 500ms;
+}
+textarea{
+    border: 3px solid rgb(25, 140, 217);
+    border-radius: 20px;
+    padding: 5px;
+    transition: 500ms;
+}
+
+::placeholder{
+    text-align: center;
+}
+.validation{
+    margin-left: 50px;
+}

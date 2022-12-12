@@ -1,0 +1,34 @@
+.github{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.file{
+    font-size: 20px;
+    margin-right: 15px;
+} 
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 99;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+.item{
+    padding: 15px;
+}
+
+
+
+
+
+

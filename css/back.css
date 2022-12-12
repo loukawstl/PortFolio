@@ -1,0 +1,23 @@
+
+/*h1*/
+h1{
+    font-family:Georgia, 'Times New Roman', Times, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  h1:before, h1:after { 
+    content:''; 
+    display:inline-block; 
+    vertical-align: middle; 
+    width: 2rem; 
+    height: 1px; 
+    background:black}
+  h1:before { margin-right: .3rem }
+  h1:after { margin-left: .3rem }
+  
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
